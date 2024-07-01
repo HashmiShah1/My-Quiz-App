@@ -67,7 +67,6 @@ body {
     background-color: #ff9393; /* Red background for incorrect answer */
 }
 
-
 #next-btn {
     background: #001e4d;
     color: #fff;
@@ -79,4 +78,35 @@ body {
     border-radius: 4px;
     cursor: pointer;
     display: none;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .app {
+        padding: 20px;
+    }
+    .app h1 {
+        font-size: 20px;
+    }
+    .quiz h2 {
+        font-size: 16px;
+    }
+    .app #answer-btns .btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .app {
+        padding: 10px;
+    }
+    .app h1 {
+        font-size: 18px;
+    }
+    .quiz h2 {
+        font-size: 14px;
+    }
+    .app #answer-btns .btn {
+        font-size: 12px;
+    }
 }
